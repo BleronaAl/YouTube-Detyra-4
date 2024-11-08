@@ -27,20 +27,8 @@ input[type="search"] {
 
 .openlink {
     top: -50px;
+    width: 400px;
     }
-
-      /* Second part */
-.openlink {
-  top: 0;
-  left: 0;
-  position: relative;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  overflow-x: auto;
-  overflow: hidden;
-  width: 300px;
-}
 
 .mainVideo {
   height: 270px;
