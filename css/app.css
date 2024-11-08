@@ -25,6 +25,28 @@ input[type="search"] {
   width: 500px;
 }
 
+.openlink {
+    top: -50px;
+    }
+
+      /* Second part */
+.openlink {
+  top: 0;
+  left: 0;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow: hidden;
+  width: 300px;
+}
+
+.mainVideo {
+  height: 270px;
+  width: 400px;
+}
+  
   /* For Tablets View */
   @media only screen and (min-width: 600px) {
   
@@ -41,6 +63,38 @@ input[type="search"] {
     .col-s-10 { width: 83.33%; }
     .col-s-11 { width: 91.66%; }
     .col-s-12 { width: 100%; }
+
+    input[type="search"] {
+      width: 300px;
+    }
+
+    .videocamera {
+      margin: 10px 10px 10px 90px;
+    }
+
+    .search{
+      margin-left: 40px;
+  }
+
+  /* Second part */
+.openlink {
+  top: 0;
+  left: 0;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow: hidden;
+  width: 600px;
+}
+
+.mainVideo {
+  height: 340px;
+  width: 540px;
+}
+  
+
   }
 
   /* For Desktop View */
@@ -62,11 +116,13 @@ input[type="search"] {
     .header {
       position: fixed;
       top: 0;
-      left: 105px;
+      left: 105px;  
   }
 
   input[type="search"] {
     width: inherit;
+    padding-left: 50px;
+    background-color: white;
   }
   
   /* Left Side */
@@ -91,6 +147,26 @@ input[type="search"] {
       left: 100px;
   }
   
+  .videocamera {
+    margin: 10px 10px 10px 110px;
+  }
+
+  .search{
+    margin-left: 60px;
+}
+
+/* Second part */
+.openlink {
+  top: -50px;
+  left: -100px;
+  position: relative;
+  background-color: white;
+}
+
+.mainVideo {
+  height: 360px;
+  width: 640px;
+}
   }
 
 .header {
@@ -110,7 +186,6 @@ input[type="search"] {
 } 
 
 .search{
-    margin-left: 60px;
     border-top-right-radius: 15px;
 }
 
@@ -156,7 +231,6 @@ input[type="search"] {
   background-repeat: no-repeat;
   width: 25px;
   height: 20px;
-  margin: 10px 10px 10px 140px;
 }
 
 .fa-bell {
@@ -464,12 +538,6 @@ small {
 
 
 /* Second part */
-.openlink {
-  position: relative;
-  top: -50px;
-  left: -100px;
-}
-
 .card-openlink {
   padding: 5px;
   width: inherit;
@@ -496,4 +564,6 @@ small {
 .card-openlink span {
   font-size: 13px;
 }
+
+
 
